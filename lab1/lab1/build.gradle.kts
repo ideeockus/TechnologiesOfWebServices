@@ -1,8 +1,9 @@
 plugins {
     kotlin("jvm") version "1.9.21"
+    war
 }
 
-group = "org.example"
+group = "org.lab1"
 version = "1.0-SNAPSHOT"
 
 repositories {
@@ -20,6 +21,11 @@ dependencies {
 tasks.test {
     useJUnitPlatform()
 }
+
+tasks.war {
+    archiveFileName.set("my_j2ee_app.war")
+}
+
 kotlin {
-    jvmToolchain(21)
+    jvmToolchain(11)
 }

@@ -12,7 +12,7 @@ class PostgreSQLDAO {
             try {
                 ConnectionUtil.connection.use { connection ->
                     val stmt: Statement? = connection?.createStatement()
-                    val rs = stmt?.executeQuery("select * from songs") ?: return emptyList()
+                    val rs = stmt?.executeQuery("select * from books") ?: return emptyList()
                     while (rs.next()) {
                         val id = rs.getInt("id")
                         val title = rs.getString("title")

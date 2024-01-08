@@ -25,11 +25,11 @@ object Client {
                         ", year=" + book.year + '}'
             )
         }
-        println("Total songs: " + books.size)
+        println("Total books: " + books.size)
 
-        println("\nBooks older than 2015")
+        println("\nBooks older than 1900")
         for (book in books) {
-            if (book.year < 2015) {
+            if (book.year < 1900) {
                 System.out.println(
                     ("book {Id=" + book.id).toString() + ", title=" + book.title.toString() + ", author=" +
                             book.author + ", genre=" + book.genre + ", isbn=" + book.isbn +
