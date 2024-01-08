@@ -59,7 +59,7 @@ class BookDAO {
         val resultSet = statement.executeQuery(sql)
 
         while (resultSet.next()) {
-            val id = resultSet.getInt("book_id")
+            val id = resultSet.getInt("id")
             val title = resultSet.getString("title")
             val author = resultSet.getString("author")
             val genre = resultSet.getString("genre")
@@ -81,7 +81,7 @@ class BookDAO {
     @Throws(SQLException::class)
     fun getBook(id: Int): BookLib? {
         var book: BookLib? = null
-        val sql = "SELECT * FROM books WHERE book_id = ?"
+        val sql = "SELECT * FROM books WHERE id = ?"
 
         connect()
 
@@ -111,7 +111,7 @@ class BookDAO {
 
     @Throws(SQLException::class)
     fun updateBook(book: BookLib): Boolean {
-        val sql = "UPDATE books SET title = ?, author = ?, genre = ?, year = ?, isbn = ? WHERE book_id = ?"
+        val sql = "UPDATE books SET title = ?, author = ?, genre = ?, year = ?, isbn = ? WHERE id = ?"
         connect()
 
         val statement = jdbcConnection!!.prepareStatement(sql)
@@ -130,7 +130,7 @@ class BookDAO {
 
     @Throws(SQLException::class)
     fun deleteBook(id: Int): Boolean {
-        val sql = "DELETE FROM books WHERE book_id = ?"
+        val sql = "DELETE FROM books WHERE id = ?"
         connect()
 
         val statement = jdbcConnection!!.prepareStatement(sql)
