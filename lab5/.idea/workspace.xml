@@ -5,18 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6eb3f0c2-d669-4f04-96ef-12f2a07932d9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../lab4/src/main/kotlin/org/lab4/App.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../lab4/src/main/kotlin/org/lab4/App.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/lab4/App.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/lab5/App.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/lab4/BookDAO.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/lab5/BookDAO.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/lab4/BookLib.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/lab5/BookLib.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/lab4/BookService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/lab5/BookService.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/lab4/ConnectionUtil.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/lab5/ConnectionUtil.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/lab4/client/Client.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/lab5/client/Client.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
