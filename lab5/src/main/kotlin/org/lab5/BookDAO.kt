@@ -1,4 +1,4 @@
-package org.lab4
+package org.lab5
 
 import java.sql.*
 

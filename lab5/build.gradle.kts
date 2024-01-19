@@ -3,7 +3,7 @@ plugins {
     kotlin("plugin.serialization") version "1.9.21" // должно соответствовать версии Kotlin
 }
 
-group = "org.lab4"
+group = "org.lab5"
 version = "1.0-SNAPSHOT"
 val ktorVersion = "2.0.1"
 
@@ -21,6 +21,7 @@ dependencies {
     implementation("io.ktor:ktor-server-netty:$ktorVersion") // Backend для Ktor (Netty)
     implementation("io.ktor:ktor-serialization-kotlinx-json:$ktorVersion") // Для работы с JSON
     implementation("io.ktor:ktor-server-content-negotiation:$ktorVersion")
+    implementation("io.ktor:ktor-client-content-negotiation:$ktorVersion")
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.3.1") // проверьте последнюю версию
     implementation("io.ktor:ktor-client-serialization:$ktorVersion")
     implementation("ch.qos.logback:logback-classic:1.2.3") // Логгирование
